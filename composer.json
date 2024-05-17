@@ -1,0 +1,22 @@
+{
+  "name": "doker42/laravel-cloudstorage-manager",
+  "description": "helper for CloudStorage",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "doker",
+      "email": "doker42@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "intervention/image": "^2.7",
+    "google/cloud-storage": "^1.27"
+  },
+  "autoload": {
+    "psr-4": {
+      "Doker42\\CloudStorageManager\\": "src"
+    }
+  }
+}
